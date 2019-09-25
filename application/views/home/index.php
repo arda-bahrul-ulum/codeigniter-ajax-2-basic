@@ -247,6 +247,16 @@
                 if (x == 'add data') {
                     $('#btn_tambah').show();
                     $('#btn_update').hide();
+
+                    $("[name='username']").val('');
+                    $("[name='password']").val('');
+                    $("[name='fullname']").val('');
+                    $("[name='address']").val('');
+                    $("[name='religion']").val('');
+                    $("[name='gender']").prop('checked', false);
+                    $("[name='is_active']").prop('checked', false);
+
+
                 } else {
                     $('#btn_tambah').hide();
                     $('#btn_update').show();
