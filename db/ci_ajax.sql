@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 24, 2019 at 05:52 PM
+-- Generation Time: Sep 25, 2019 at 04:10 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -44,10 +44,12 @@ CREATE TABLE `tb_mahasiswa` (
 --
 
 INSERT INTO `tb_mahasiswa` (`id`, `username`, `password`, `fullname`, `gender`, `address`, `religion`, `is_active`) VALUES
-(54, 'asdasdasdasdasdasdaasd', 'asd', 'asd', 'P', 'asd', 3, 1),
+(54, 'arda', 'asd', 'asd', 'P', 'asd', 3, 1),
 (57, 'asd', 'ad', 'asdada', 'L', 'asd', 1, 1),
 (58, 'adad', 'ad', 'a', 'L', 'asd', 1, 1),
-(60, 'adasdasdasd', 'asdasd', 'asdad', 'L', 'sdasd', 1, 1);
+(60, 'persebaya', 'asdasd', 'asdad', 'P', 'sdasd', 1, 1),
+(62, 'asdsad', 'asdasd', 'asdsdasd', 'L', 'asdadas', 4, 1),
+(63, 'arda', 'asd', 'asd', 'P', 'asd', 3, 1);
 
 --
 -- Indexes for dumped tables
@@ -67,7 +69,7 @@ ALTER TABLE `tb_mahasiswa`
 -- AUTO_INCREMENT for table `tb_mahasiswa`
 --
 ALTER TABLE `tb_mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
