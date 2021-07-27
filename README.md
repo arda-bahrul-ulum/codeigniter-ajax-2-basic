@@ -1,2 +1,2 @@
-# ci_ajax_2
-latihan ajax
+# CodeIgniter-Ajax-2
+Learn CodeIniter With Ajax
